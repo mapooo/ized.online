@@ -1,3 +1,11 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    margin: 0;
+}
+
 #flex-container{
     display: flex;
 }
@@ -16,6 +24,7 @@
 .text2{
     position: absolute;
     z-index: 1;
+    bottom: 0;
     color: grey;
 }
 
@@ -35,6 +44,6 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     z-index: 0;
 }
