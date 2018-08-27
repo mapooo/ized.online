@@ -1,10 +1,29 @@
+html{
+    outline: none;       
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    margin: 0;
+}
+
 #flex-container{
     display: flex;
+    padding: 0px;
+    margin: 0px
 }
 
 .particles{
     position: absolute
     z-index: 0;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
 }
 
 .text1{
@@ -16,6 +35,7 @@
 .text2{
     position: absolute;
     z-index: 1;
+    bottom: 0;
     color: grey;
 }
 
@@ -35,6 +55,6 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     z-index: 0;
 }
